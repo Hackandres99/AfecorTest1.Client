@@ -1,0 +1,8 @@
+{
+    "/b1s": {
+        "target": "https://192.168.100.45:50000",
+        "secure": false,
+        "changeOrigin": true,
+        "logLevel": "debug"
+    }
+}

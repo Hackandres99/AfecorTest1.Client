@@ -2,7 +2,8 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "cli": {
-    "packageManager": "npm"
+    "packageManager": "npm",
+    "analytics": "dd230367-67f2-4812-965b-a47a40c82aff"
   },
   "newProjectRoot": "projects",
   "projects": {
@@ -67,7 +68,8 @@
               "buildTarget": "AfecorTest1:build:production"
             },
             "development": {
-              "buildTarget": "AfecorTest1:build:development"
+              "buildTarget": "AfecorTest1:build:development",
+              "proxyConfig": "proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
